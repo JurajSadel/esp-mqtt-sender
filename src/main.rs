@@ -1,10 +1,10 @@
 
 
-use bsc::{
-    led::{RGB8, WS2812RMT},
-    temp_sensor::BoardTempSensor,
-    wifi::wifi,
-};
+// use bsc::{
+//     led::{RGB8, WS2812RMT},
+//     temp_sensor::BoardTempSensor,
+//     wifi::wifi,
+// };
 
 
 use esp_idf_hal;
@@ -22,5 +22,5 @@ fn main() -> anyhow::Result<()> {
 
 
 
-    Ok(());
+    Ok(())
 }
