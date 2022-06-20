@@ -16,7 +16,7 @@ const UUID: &'static str = get_uuid::uuid();
 
 fn main() -> anyhow::Result<()> {
 
-    e№sp_idf_sys::link_patches();
+    esp_idf_sys::link_patches();
 
 
 
